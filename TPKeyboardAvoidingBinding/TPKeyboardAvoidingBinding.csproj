@@ -1,0 +1,34 @@
+<Project Sdk="Xamarin.Legacy.Sdk/0.2.0-alpha4">
+  <PropertyGroup>
+    <TargetFrameworks>xamarin.ios10;net8.0-ios</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Softeq.TPKeyboardAvoiding</PackageId>
+    <Version>1.3.5</Version>
+    <Authors>Softeq Development Corp.</Authors>
+    <Company>Softeq Development Corp.</Company>
+    <Description>.NET Binding for TPKeyboardAvoiding</Description>
+    <PackageProjectUrl>https://github.com/xamarin/XamarinComponents/tree/main/iOS/TPKeyboardAvoiding</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'xamarin.ios10'">
+    <Compile Remove="ApiDefinition.cs" />
+    <Compile Remove="StructsAndEnums.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true'" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true'" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="..\TPKeyboardAvoidingKit">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+    </NativeReference>
+  </ItemGroup>
+</Project>
