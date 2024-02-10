@@ -1,0 +1,5 @@
+platform :ios, '12.0'
+install! 'cocoapods', :integrate_targets => false
+target 'Xamarin' do
+    pod 'TPKeyboardAvoiding', '1.3.5'
+end
