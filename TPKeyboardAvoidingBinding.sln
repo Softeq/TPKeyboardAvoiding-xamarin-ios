@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1706.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPKeyboardAvoidingBinding", "src\TPKeyboardAvoidingBinding.csproj", "{2874D1E4-9BA6-45B5-A81C-DAEE617CF67F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPKeyboardAvoidingSample", "samples\TPKeyboardAvoidingSample.csproj", "{515328B2-CF10-48FA-9292-E3D8D31B63B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2874D1E4-9BA6-45B5-A81C-DAEE617CF67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2874D1E4-9BA6-45B5-A81C-DAEE617CF67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2874D1E4-9BA6-45B5-A81C-DAEE617CF67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515328B2-CF10-48FA-9292-E3D8D31B63B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515328B2-CF10-48FA-9292-E3D8D31B63B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515328B2-CF10-48FA-9292-E3D8D31B63B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515328B2-CF10-48FA-9292-E3D8D31B63B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
