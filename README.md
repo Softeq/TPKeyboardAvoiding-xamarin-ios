@@ -3,7 +3,7 @@
 A drop-in universal solution for moving text fields out of the way of the keyboard in iOS.
 
 [![Build Status](https://dev.azure.com/SofteqDevelopment/Xamarin.Binding.Libraries/_apis/build/status/TPKeyboardAvoiding%20iOS%20Library/TPKeyboardAvoiding-dev?branchName=main)](https://dev.azure.com/SofteqDevelopment/Xamarin.Binding.Libraries/_build/latest?definitionId=407&branchName=main)
-[![NuGet Badge](https://buildstats.info/nuget/Softeq.TPKeyboardAvoiding)](https://www.nuget.org/packages/Softeq.TPKeyboardAvoiding/)
+[![NuGet Badge](https://buildstats.info/nuget/Softeq.TPKeyboardAvoiding?includePreReleases=true)](https://www.nuget.org/packages/Softeq.TPKeyboardAvoiding/)
 
 ## Installation
 
